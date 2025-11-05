@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "dev": "ts-node src/Practice.ts",
+    "build": "tsc",
+    "start": "node dist/Practice.ts"
+  },
   "dependencies": {
     "express": "^5.1.0"
   },
