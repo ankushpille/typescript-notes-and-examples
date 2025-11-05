@@ -9,3 +9,19 @@ console.log(version);
 console.log(isComplete);
 console.log(numArray);
 console.log(strArray);
+
+
+interface User{
+    id: number;
+    name: string;
+    email?: string;
+}
+
+const CurrentUser : User = {
+    id: 12,
+    name: 'ankush'
+}
+
+console.log(CurrentUser);
+
+
